@@ -23,7 +23,7 @@ Linux is GUI with optional command line while Unix is only command line
 10. `2>/dev/null`: redirect the stderr (>) to <file> and don't print on terminal (/dev/null supressing the output, null)
 11. `2?&1`: redirect stderr to stdout, & tells shell that 1 is not a filename but file descriptor (file descriptor 1 is stdout, 2 is stderr)
 12. `--`: is used to denote end of flags. eg: you want to mkdir -q (-q is the name of the directory), then `mkdir -- -q`
-13. `s` is for scrolling down and `k` for scrolling up inside `man`, use `/<search>` for searching your flag
+13. `s` is for scrolling down (macOS) (`j` for parrotOS) and `k` for scrolling up inside `man`, use `/<search>` for searching your flag
 14. `cat <file_name(s)>` reads and prints contents of a file
 15. `nc`: 'NetCat' is like a cat command over a network. It is a networking communication tool used to read and write data to network connections (ports) using TCP/UDP
 16. Pager program: helps the user get the output, on the terminal, one page at a time. Popular pagers in Unix are `more` and `less`
