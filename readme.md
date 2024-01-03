@@ -28,4 +28,6 @@ Linux is GUI with optional command line while Unix is only command line
 15. `nc`: 'NetCat' is like a cat command over a network. It is a networking communication tool used to read and write data to network connections (ports) using TCP/UDP
 16. Pager program: helps the user get the output, on the terminal, one page at a time. Popular pagers in Unix are `more` and `less`
 17. `objdump`: program for displaying information about object files in Unix, eg: used as a disassembler to view executable in assembly form
+18. `file` command gives information about the file you pass
+19. `ltrace` intercepts and records dynamic library calls, similar `strace` traces system calls called by a process
     
